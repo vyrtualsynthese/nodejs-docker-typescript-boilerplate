@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo",
-    "prepare": "husky install"
+    "postinstall": "husky install && cp -r .husky/* .git/hooks"
   },
   "repository": {
     "type": "git",
@@ -13,11 +13,12 @@
   },
   "author": "Valentin RONTEIX",
   "license": "DWTFYWT",
-  "dependencies": {
-  },
   "devDependencies": {
     "@commitlint/cli": "^12.1.1",
     "@commitlint/config-conventional": "^12.1.1",
     "husky": "^6.0.0"
+  },
+  "husky": {
+    "hooks": {}
   }
 }
