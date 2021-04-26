@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-docker-typescript-boilerplate",
+  "version": "0.0.1",
+  "description": "Simple overview of use/purpose.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vyrtualsynthese/nodejs-docker-typescript-boilerplate.git"
+  },
+  "author": "Valentin RONTEIX",
+  "license": "DWTFYWT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.1",
+    "@commitlint/config-conventional": "^12.1.1",
+    "husky": "^6.0.0"
+  }
+}
