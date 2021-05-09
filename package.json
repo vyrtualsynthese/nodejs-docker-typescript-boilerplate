@@ -4,8 +4,9 @@
   "description": "Simple overview of use/purpose.",
   "scripts": {
     "build": "tsc",
-    "start:dev:watch": "ts-node-dev --respawn -- src/index.ts",
-    "postinstall": "husky install && cp -r .husky/* .git/hooks"
+    "postinstall": "husky install && cp -r .husky/* .git/hooks",
+    "prod": "node ./dist/index.js",
+    "dev:watch": "ts-node-dev --respawn -- src/index.ts"
   },
   "repository": {
     "type": "git",
