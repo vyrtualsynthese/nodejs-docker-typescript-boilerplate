@@ -2,7 +2,7 @@
 
 Version 2, December 2004
 
-Copyright (C) `<year>` `<name>` `<email>`
+Copyright (C) `2021` `Ronteix Valentin` `valentin.ronteix@ashudev.com`
 
 Everyone is permitted to copy and distribute verbatim or modified
 copies of this license document, and changing it is allowed as long
