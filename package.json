@@ -5,7 +5,6 @@
   "author": "Valentin RONTEIX",
   "license": "WTFPL",
   "scripts": {
-    "postinstall": "husky install && cp -r .husky/* .git/hooks",
     "build": "tsc",
     "prod": "node ./dist/index.js",
     "dev": "ts-node-dev --respawn --inspect=0.0.0.0 -- src/index.ts",
@@ -18,13 +17,10 @@
     "docker:prod:down": "docker-compose up -d"
   },
   "devDependencies": {
-    "@commitlint/cli": "^12.1.1",
-    "@commitlint/config-conventional": "^12.1.1",
     "@types/node": "^15.0.1",
     "@typescript-eslint/eslint-plugin": "^4.22.1",
     "@typescript-eslint/parser": "^4.22.1",
     "eslint": "^7.26.0",
-    "husky": "^6.0.0",
     "lint-staged": "^11.0.0",
     "prettier": "2.3.0",
     "ts-node": "^9.1.1",
@@ -34,9 +30,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vyrtualsynthese/nodejs-docker-typescript-boilerplate.git"
-  },
-  "husky": {
-    "hooks": {}
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
